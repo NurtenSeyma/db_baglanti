@@ -1,0 +1,12 @@
+<?php
+
+session_start();
+require= "db.php";
+?>
+
+<?php if(@$_SESSION["login"]) { ?>
+
+<?php } { ?>
+ <a href="giris.php">Giriş Yap:</a>
+
+<?php } ?>
